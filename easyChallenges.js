@@ -8,3 +8,36 @@ function addition(num) {
   var num = num + 1;
   return num;
 }
+
+// Compute Remainder in division (using modulo)
+function remainder(x, y) {
+  return x % y;
+}
+
+//Convert minutes in secs
+function convert(minutes) {
+  return minutes * 60;
+}
+
+//Calculation of perimeter of rectangle
+function findPerimeter(length, width) {
+  var width = width * 2;
+  var length = length * 2;
+  return width + length;
+}
+
+//return cube of number
+function cubes(a) {
+  return a ** 3;
+}
+
+//add something string to any value set in variable
+function giveMeSomething(a) {
+  a = "something " + a;
+  return a;
+}
+
+//calculate age by days
+function calcAge(age) {
+  age = age * 365;
+}
