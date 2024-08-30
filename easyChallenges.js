@@ -53,3 +53,23 @@ function points(twoPointers, threePointers) {
   var threePointers = threePointers * 3;
   return twoPointers + threePointers;
 }
+
+//Power Calculation Expected Output: circuitPower(230, 10) ➞ 2300
+function circuitPower(voltage, current) {
+  return voltage * current;
+}
+
+//Is the Number Less than or Equal to Zero?
+function lessThanOrEqualToZero(num) {
+  if (num <= 0) {
+    return true;
+  } else return false;
+}
+
+//Swap value
+function swap(a, b) {
+  const tmp = a;
+  a = b;
+  b = tmp;
+  return [a, b];
+}
