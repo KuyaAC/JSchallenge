@@ -41,3 +41,15 @@ function giveMeSomething(a) {
 function calcAge(age) {
   age = age * 365;
 }
+
+//calculate hours into secs
+function calcHour(hours) {
+  return hours * (60 * 60);
+}
+
+//basketball points Expected Output: points(1, 1) = 5
+function points(twoPointers, threePointers) {
+  var twoPointers = twoPointers * 2;
+  var threePointers = threePointers * 3;
+  return twoPointers + threePointers;
+}
